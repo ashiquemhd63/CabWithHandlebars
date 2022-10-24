@@ -1,0 +1,51 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.loc{
+    background: black;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.bu{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.bt1{
+    border: 0px;
+    background: white;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: rebeccapurple 0px 6px 12px -2px;
+    border-radius: 8px;
+    display: flex;
+    margin: 10px;
+    font-size: 11pt;
+}
+.bt2{
+    border: 0px;
+    background: rgb(88, 88, 201);
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: rgb(24, 9, 39) 0px 6px 12px -2px;
+    border-radius: 8px;
+    display: flex;
+    margin: 10px;
+    font-size: 11pt;
+}
+.caption{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.cover{
+    
+}
