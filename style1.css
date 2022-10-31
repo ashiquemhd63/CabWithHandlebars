@@ -1,0 +1,15 @@
+
+.mainbody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(70, 188, 188);
+    height: 100vh;
+}
+.submain{
+    width: 60%;
+    height: 60%;
+}
+.row{
+    padding: 10px;
+}
