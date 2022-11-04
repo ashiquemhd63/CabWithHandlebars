@@ -8,31 +8,13 @@
     <title>registration</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylereg.css">
-    <style>
-        body {
-            margin: 0%;
-            padding: 0%;
-        }
-
-        .main {
-
-            background-size: cover;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .alert-danger {
-            color: red;
-        }
-    </style>
+    
 </head>
 
 <body>
     <div class="main">
-        <div>
-            <div class="formbody">
+        <div class="subdiv">
+            <div class="formbody shadow p-3 mb-5 bg-body rounded    ">
                 <h1 class="text-center">Registration</h1>
                 <form name="loginform" id="loginform" onsubmit="validate(event)">
                     <div>
@@ -68,6 +50,10 @@
     
             </div>
 
+            <div class="right-div" >
+                <img src="assets/images/taxi-app-development-banner.png" alt="" class="right-image">
+            </div>
+
         </div>
        
 
@@ -81,7 +67,7 @@
             var password = document.forms[0]['password'];
             var confirmpass = document.forms[0]['cpassword'];
             var error = document.getElementById('error-messages');
-            var  = document.getElementById('pass');
+            var passerr = document.getElementById('pass');
             if (!email.validity.valid) {
                 error.innerHTML = 'Please enter a valid email';
                 return false; passerr
