@@ -6,7 +6,7 @@ function getAll(callback){
 }
 
 function addOne(First_name, Last_name, Password, Email, Mobile, Address, Dob, Gender, callback){
-    const sql = "INSERT INTO passenger (First_name, Last_name, Password, Email, Mobile, Address, Dob, Gender) VALUES (?, ?, ?, ?, ?, ?, ?,?)";
+    const sql = "INSERT INTO passenger (First_name, Last_name, Passward, Email, Mobile, Address, Dob, Gender) VALUES (?, ?, ?, ?, ?, ?, ?,?)";
     db.executeQuery(sql, [First_name, Last_name, Password, Email, Mobile, Address, Dob, Gender], callback);
 }
 
